@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "Camera.h"
-
 #include "GLUtils.h"
 
 using namespace Utils ;

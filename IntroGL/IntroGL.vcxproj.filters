@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
@@ -16,13 +12,20 @@
     <Filter Include="Header Files\OBJLoader">
       <UniqueIdentifier>{e98cbddb-39dd-468c-99eb-64f15dee6cc2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\OBJLoader">
-      <UniqueIdentifier>{bc8c71b7-2cad-463b-aac3-2cf571ea61a7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\GLFont">
       <UniqueIdentifier>{bfc47fe2-09d8-4317-8f7b-66d6be1f8b52}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\GLFont">
+    <Filter Include="WaterSimulation">
+      <UniqueIdentifier>{3f93999d-57f8-48dc-8e52-6401adc0b5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SourceFiles\OBJLoader">
+      <UniqueIdentifier>{bc8c71b7-2cad-463b-aac3-2cf571ea61a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\GLFont">
       <UniqueIdentifier>{cb7c7956-03f2-4e71-adf0-fde5a3db6aab}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -75,40 +78,82 @@
     <ClInclude Include="OBJLoader\string_extra.h">
       <Filter>Header Files\OBJLoader</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_2D.h">
+      <Filter>WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_3D.h">
+      <Filter>WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\HW1.h">
+      <Filter>WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE.h">
+      <Filter>WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE_SYSTEM.h">
+      <Filter>WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\VEC3D.h">
+      <Filter>WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\VEC3F.h">
+      <Filter>WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\WALL.h">
+      <Filter>WaterSimulation</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>SourceFiles</Filter>
     </ClCompile>
     <ClCompile Include="IntroGL.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>SourceFiles</Filter>
     </ClCompile>
     <ClCompile Include="GLUtils.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>SourceFiles</Filter>
     </ClCompile>
     <ClCompile Include="GLApp.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>SourceFiles</Filter>
     </ClCompile>
     <ClCompile Include="Camera.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>SourceFiles</Filter>
     </ClCompile>
     <ClCompile Include="GLMesh.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>SourceFiles</Filter>
     </ClCompile>
     <ClCompile Include="GLFont\GLFont.cpp">
-      <Filter>Source Files\GLFont</Filter>
+      <Filter>SourceFiles\GLFont</Filter>
     </ClCompile>
     <ClCompile Include="OBJLoader\list.cpp">
-      <Filter>Source Files\OBJLoader</Filter>
+      <Filter>SourceFiles\OBJLoader</Filter>
     </ClCompile>
     <ClCompile Include="OBJLoader\obj_parser.cpp">
-      <Filter>Source Files\OBJLoader</Filter>
+      <Filter>SourceFiles\OBJLoader</Filter>
     </ClCompile>
     <ClCompile Include="OBJLoader\objLoader.cpp">
-      <Filter>Source Files\OBJLoader</Filter>
+      <Filter>SourceFiles\OBJLoader</Filter>
     </ClCompile>
     <ClCompile Include="OBJLoader\string_extra.cpp">
-      <Filter>Source Files\OBJLoader</Filter>
+      <Filter>SourceFiles\OBJLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_2D.cpp">
+      <Filter>WaterSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_3D.cpp">
+      <Filter>WaterSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\HW1.cpp">
+      <Filter>WaterSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE.cpp">
+      <Filter>WaterSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE_SYSTEM.cpp">
+      <Filter>WaterSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\WALL.cpp">
+      <Filter>WaterSimulation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
