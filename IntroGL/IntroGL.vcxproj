@@ -74,19 +74,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="ReadMe.txt" />
     <None Include="small.ico" />
     <None Include="IntroGL.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_2D.h" />
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_3D.h" />
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\HW1.h" />
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE.h" />
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE_SYSTEM.h" />
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\VEC3D.h" />
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\VEC3F.h" />
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\WALL.h" />
+    <ClInclude Include="..\Water Simulation\FIELD_2D.h" />
+    <ClInclude Include="..\Water Simulation\FIELD_3D.h" />
+    <ClInclude Include="..\Water Simulation\HW1.h" />
+    <ClInclude Include="..\Water Simulation\PARTICLE.h" />
+    <ClInclude Include="..\Water Simulation\PARTICLE_SYSTEM.h" />
+    <ClInclude Include="..\Water Simulation\VEC3D.h" />
+    <ClInclude Include="..\Water Simulation\VEC3F.h" />
+    <ClInclude Include="..\Water Simulation\WALL.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="GLApp.h" />
     <ClInclude Include="GLFont\GLFont.h" />
@@ -102,12 +101,12 @@
     <ClInclude Include="IntroGL.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_2D.cpp" />
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_3D.cpp" />
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\HW1.cpp" />
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE.cpp" />
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE_SYSTEM.cpp" />
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\WALL.cpp" />
+    <ClCompile Include="..\Water Simulation\FIELD_2D.cpp" />
+    <ClCompile Include="..\Water Simulation\FIELD_3D.cpp" />
+    <ClCompile Include="..\Water Simulation\HW1.cpp" />
+    <ClCompile Include="..\Water Simulation\PARTICLE.cpp" />
+    <ClCompile Include="..\Water Simulation\PARTICLE_SYSTEM.cpp" />
+    <ClCompile Include="..\Water Simulation\WALL.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="GLApp.cpp" />
     <ClCompile Include="GLFont\GLFont.cpp" />

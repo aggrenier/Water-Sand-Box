@@ -15,9 +15,6 @@
     <Filter Include="Header Files\GLFont">
       <UniqueIdentifier>{bfc47fe2-09d8-4317-8f7b-66d6be1f8b52}</UniqueIdentifier>
     </Filter>
-    <Filter Include="WaterSimulation">
-      <UniqueIdentifier>{3f93999d-57f8-48dc-8e52-6401adc0b5e4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="SourceFiles">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
@@ -28,9 +25,11 @@
     <Filter Include="SourceFiles\GLFont">
       <UniqueIdentifier>{cb7c7956-03f2-4e71-adf0-fde5a3db6aab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="WaterSimulation">
+      <UniqueIdentifier>{e764c635-da20-4ea4-905c-0e4592f69dfe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ReadMe.txt" />
     <None Include="small.ico">
       <Filter>Resource Files</Filter>
     </None>
@@ -78,28 +77,28 @@
     <ClInclude Include="OBJLoader\string_extra.h">
       <Filter>Header Files\OBJLoader</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_2D.h">
+    <ClInclude Include="..\Water Simulation\FIELD_2D.h">
       <Filter>WaterSimulation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_3D.h">
+    <ClInclude Include="..\Water Simulation\FIELD_3D.h">
       <Filter>WaterSimulation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\HW1.h">
+    <ClInclude Include="..\Water Simulation\HW1.h">
       <Filter>WaterSimulation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE.h">
+    <ClInclude Include="..\Water Simulation\PARTICLE.h">
       <Filter>WaterSimulation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE_SYSTEM.h">
+    <ClInclude Include="..\Water Simulation\PARTICLE_SYSTEM.h">
       <Filter>WaterSimulation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\VEC3D.h">
+    <ClInclude Include="..\Water Simulation\VEC3D.h">
       <Filter>WaterSimulation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\VEC3F.h">
+    <ClInclude Include="..\Water Simulation\VEC3F.h">
       <Filter>WaterSimulation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\WALL.h">
+    <ClInclude Include="..\Water Simulation\WALL.h">
       <Filter>WaterSimulation</Filter>
     </ClInclude>
   </ItemGroup>
@@ -137,22 +136,22 @@
     <ClCompile Include="OBJLoader\string_extra.cpp">
       <Filter>SourceFiles\OBJLoader</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_2D.cpp">
+    <ClCompile Include="..\Water Simulation\FIELD_2D.cpp">
       <Filter>WaterSimulation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\FIELD_3D.cpp">
+    <ClCompile Include="..\Water Simulation\FIELD_3D.cpp">
       <Filter>WaterSimulation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\HW1.cpp">
+    <ClCompile Include="..\Water Simulation\HW1.cpp">
       <Filter>WaterSimulation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE.cpp">
+    <ClCompile Include="..\Water Simulation\PARTICLE.cpp">
       <Filter>WaterSimulation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\PARTICLE_SYSTEM.cpp">
+    <ClCompile Include="..\Water Simulation\PARTICLE_SYSTEM.cpp">
       <Filter>WaterSimulation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SPH-Fluid-Simulation-master\594G Final Project\WALL.cpp">
+    <ClCompile Include="..\Water Simulation\WALL.cpp">
       <Filter>WaterSimulation</Filter>
     </ClCompile>
   </ItemGroup>
