@@ -23,12 +23,12 @@ void main()
 	float NdotL = max(0.0, dot(NN, NL));
     
     
-	float t3 = texture2D(tex3, coord).x;
+	float tSpeculaire = texture2D(tex3, coord).x;
 
 	gl_FragColor.rgb += dColor.rgb * NdotL;
 
 	if (NdotL > 0.0)
-		gl_FragColor.rgb += pow(max(0.0, dot(NN, NH)), specularExp) * t3;
+		gl_FragColor.rgb += pow(max(0.0, dot(NN, NH)), specularExp) * tSpeculaire;
 	
 	gl_FragColor.a = 1.0;
 }
