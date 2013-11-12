@@ -1,167 +1,38 @@
-﻿Build started 11/12/2013 3:02:15 PM.
+﻿Build started 11/12/2013 3:30:16 PM.
 Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Application II\Water-Sand-Box\IntroGL\IntroGL.vcxproj" on node 2 (rebuild target(s)).
 _PrepareForClean:
   Deleting file "Debug\IntroGL.lastbuildstate".
-PrepareForBuild:
-  Creating directory "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Application II\Water-Sand-Box\Debug\".
 InitializeBuildStatus:
   Touching "Debug\IntroGL.unsuccessfulbuild".
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GLEW_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\IntroGL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GLEW_STATIC /D _UNICODE /D UNICODE /D GLUT_BUILDING_LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\IntroGL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
   stdafx.cpp
-  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GLEW_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\IntroGL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Water Simulation\FIELD_2D.cpp" "..\Water Simulation\FIELD_3D.cpp" "..\Water Simulation\HW1.cpp" "..\Water Simulation\PARTICLE.cpp" "..\Water Simulation\PARTICLE_SYSTEM.cpp" "..\Water Simulation\WALL.cpp" Camera.cpp GLApp.cpp GLFont\GLFont.cpp GLMesh.cpp GLUtils.cpp OBJLoader\list.cpp OBJLoader\objLoader.cpp OBJLoader\obj_parser.cpp OBJLoader\string_extra.cpp IntroGL.cpp
-  IntroGL.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\introgl.cpp(50): warning C4800: 'WPARAM' : forcing value to bool 'true' or 'false' (performance warning)
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\introgl.cpp(50): warning C4800: 'WPARAM' : forcing value to bool 'true' or 'false' (performance warning)
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\introgl.cpp(50): warning C4800: 'WPARAM' : forcing value to bool 'true' or 'false' (performance warning)
-  string_extra.cpp
-  obj_parser.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(18): warning C4091: 'typedef ' : ignored on left of 'obj_face' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(27): warning C4091: 'typedef ' : ignored on left of 'obj_sphere' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(36): warning C4091: 'typedef ' : ignored on left of 'obj_plane' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(41): warning C4091: 'typedef ' : ignored on left of 'obj_vector' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(56): warning C4091: 'typedef ' : ignored on left of 'obj_material' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(63): warning C4091: 'typedef ' : ignored on left of 'obj_camera' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(69): warning C4091: 'typedef ' : ignored on left of 'obj_light_point' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(76): warning C4091: 'typedef ' : ignored on left of 'obj_light_disc' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(82): warning C4091: 'typedef ' : ignored on left of 'obj_light_quad' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(105): warning C4091: 'typedef ' : ignored on left of 'obj_growable_scene_data' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(138): warning C4091: 'typedef ' : ignored on left of 'obj_scene_data' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(61): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(139): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(167): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(168): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(169): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(193): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(204): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(220): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(227): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(228): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(229): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(235): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(236): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(237): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(243): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(244): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(245): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(250): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(255): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(260): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(265): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(270): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(279): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(303): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(325): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(403): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.cpp(408): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
-  objLoader.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(18): warning C4091: 'typedef ' : ignored on left of 'obj_face' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(27): warning C4091: 'typedef ' : ignored on left of 'obj_sphere' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(36): warning C4091: 'typedef ' : ignored on left of 'obj_plane' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(41): warning C4091: 'typedef ' : ignored on left of 'obj_vector' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(56): warning C4091: 'typedef ' : ignored on left of 'obj_material' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(63): warning C4091: 'typedef ' : ignored on left of 'obj_camera' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(69): warning C4091: 'typedef ' : ignored on left of 'obj_light_point' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(76): warning C4091: 'typedef ' : ignored on left of 'obj_light_disc' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(82): warning C4091: 'typedef ' : ignored on left of 'obj_light_quad' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(105): warning C4091: 'typedef ' : ignored on left of 'obj_growable_scene_data' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(138): warning C4091: 'typedef ' : ignored on left of 'obj_scene_data' when no variable is declared
-  list.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\list.cpp(62): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
-  GLUtils.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glutils.cpp(106): warning C4244: 'argument' : conversion from 'glm::lowp_float' to 'char', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glutils.cpp(115): warning C4244: 'argument' : conversion from 'const float' to 'char', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glutils.cpp(117): warning C4244: 'argument' : conversion from 'const float' to 'char', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glutils.cpp(119): warning C4244: 'argument' : conversion from 'const float' to 'char', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glutils.cpp(126): warning C4244: 'argument' : conversion from 'const float' to 'char', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glutils.cpp(128): warning C4244: 'argument' : conversion from 'const float' to 'char', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glutils.cpp(130): warning C4244: 'argument' : conversion from 'const float' to 'char', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glutils.cpp(132): warning C4244: 'argument' : conversion from 'const float' to 'char', possible loss of data
-  GLMesh.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(18): warning C4091: 'typedef ' : ignored on left of 'obj_face' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(27): warning C4091: 'typedef ' : ignored on left of 'obj_sphere' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(36): warning C4091: 'typedef ' : ignored on left of 'obj_plane' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(41): warning C4091: 'typedef ' : ignored on left of 'obj_vector' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(56): warning C4091: 'typedef ' : ignored on left of 'obj_material' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(63): warning C4091: 'typedef ' : ignored on left of 'obj_camera' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(69): warning C4091: 'typedef ' : ignored on left of 'obj_light_point' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(76): warning C4091: 'typedef ' : ignored on left of 'obj_light_disc' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(82): warning C4091: 'typedef ' : ignored on left of 'obj_light_quad' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(105): warning C4091: 'typedef ' : ignored on left of 'obj_growable_scene_data' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\objloader\obj_parser.h(138): warning C4091: 'typedef ' : ignored on left of 'obj_scene_data' when no variable is declared
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glmesh.cpp(48): warning C4018: '<' : signed/unsigned mismatch
-  GLFont.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glfont\glfont.cpp(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-  GLApp.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glapp.cpp(325): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-  Camera.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(37): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(71): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(75): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(79): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(83): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(87): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(91): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(99): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(103): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(107): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GLEW_STATIC /D _UNICODE /D UNICODE /D GLUT_BUILDING_LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Water Simulation\FIELD_2D.cpp" "..\Water Simulation\FIELD_3D.cpp" "..\Water Simulation\glvu\glvu.cpp" "..\Water Simulation\HW1.cpp" "..\Water Simulation\PARTICLE.cpp" "..\Water Simulation\PARTICLE_SYSTEM.cpp" "..\Water Simulation\WALL.cpp"
   WALL.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\wall.cpp(1): warning C4627: '#include "WALL.h"': skipped when looking for precompiled header use
-          Add directive to 'StdAfx.h' or rebuild precompiled header
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\wall.cpp(2): warning C4627: '#include "..\SourceFiles\stdafx.h"': skipped when looking for precompiled header use
-          Add directive to 'StdAfx.h' or rebuild precompiled header
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\wall.cpp(49): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
   PARTICLE_SYSTEM.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(1): warning C4627: '#include "PARTICLE_SYSTEM.h"': skipped when looking for precompiled header use
-          Add directive to 'StdAfx.h' or rebuild precompiled header
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(797): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(227): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(228): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(234): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(315): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(369): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(436): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(458): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(493): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(523): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(674): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(684): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(708): warning C4018: '<' : signed/unsigned mismatch
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(723): warning C4018: '<' : signed/unsigned mismatch
   PARTICLE.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle.cpp(1): warning C4627: '#include "PARTICLE.h"': skipped when looking for precompiled header use
-          Add directive to 'StdAfx.h' or rebuild precompiled header
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle.cpp(115): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
   HW1.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\hw1.cpp(362): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+  glvu.cpp
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\glvu\glvu.h(28): fatal error C1083: Cannot open include file: 'GLUT/glut.h': No such file or directory
   FIELD_3D.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\field_3d.cpp(1): warning C4627: '#include "FIELD_3D.h"': skipped when looking for precompiled header use
-          Add directive to 'StdAfx.h' or rebuild precompiled header
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\field_3d.cpp(22): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
   FIELD_2D.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\field_2d.cpp(1): warning C4627: '#include "FIELD_2D.h"': skipped when looking for precompiled header use
-          Add directive to 'StdAfx.h' or rebuild precompiled header
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\field_2d.cpp(144): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
   Generating Code...
 Done Building Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Application II\Water-Sand-Box\IntroGL\IntroGL.vcxproj" (rebuild target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:08.72
+Time Elapsed 00:00:08.78

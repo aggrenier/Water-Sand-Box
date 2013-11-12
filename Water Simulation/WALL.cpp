@@ -1,6 +1,4 @@
 #include "WALL.h"
-#include "..\SourceFiles\stdafx.h"
-
 
 namespace ord12929
 {

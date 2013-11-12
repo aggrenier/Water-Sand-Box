@@ -28,6 +28,9 @@
     <Filter Include="WaterSimulation">
       <UniqueIdentifier>{e764c635-da20-4ea4-905c-0e4592f69dfe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="WaterSimulation\gluv">
+      <UniqueIdentifier>{ec2f5bd9-9470-44d4-aca6-e9c459cba5ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="small.ico">
@@ -101,6 +104,30 @@
     <ClInclude Include="..\Water Simulation\WALL.h">
       <Filter>WaterSimulation</Filter>
     </ClInclude>
+    <ClInclude Include="..\Water Simulation\glvu\camera.h">
+      <Filter>WaterSimulation\gluv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\glvu\glvu.h">
+      <Filter>WaterSimulation\gluv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\glvu\glvuMat16fv.h">
+      <Filter>WaterSimulation\gluv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\glvu\glvuVec3f.h">
+      <Filter>WaterSimulation\gluv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\glvu\glvuVec3fv.h">
+      <Filter>WaterSimulation\gluv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\glvu\snapshot.h">
+      <Filter>WaterSimulation\gluv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\glvu\text.h">
+      <Filter>WaterSimulation\gluv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\glvu\trackball.h">
+      <Filter>WaterSimulation\gluv</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -153,6 +180,9 @@
     </ClCompile>
     <ClCompile Include="..\Water Simulation\WALL.cpp">
       <Filter>WaterSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Water Simulation\glvu\glvu.cpp">
+      <Filter>WaterSimulation\gluv</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
