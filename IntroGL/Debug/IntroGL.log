@@ -1,4 +1,4 @@
-﻿Build started 11/14/2013 3:44:16 PM.
+﻿Build started 11/14/2013 3:46:46 PM.
 Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Application II\Water-Sand-Box\IntroGL\IntroGL.vcxproj" on node 2 (rebuild target(s)).
 _PrepareForClean:
   Deleting file "Debug\IntroGL.lastbuildstate".
@@ -27,4 +27,4 @@ Done Building Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Appl
 
 Build FAILED.
 
-Time Elapsed 00:00:04.74
+Time Elapsed 00:00:04.41
