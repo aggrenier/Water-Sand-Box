@@ -7,9 +7,9 @@
 
 #include "GLFont\GLFont.h"
 
-#include "WaterSimulation\WALL.h"
-#include "WaterSimulation\PARTICLE.h"
-#include "WaterSimulation\PARTICLE_SYSTEM.h"
+//#include "Water Simulation\WALL.h"
+//#include "Water Simulation\PARTICLE.h"
+//#include "Water Simulation\PARTICLE_SYSTEM.h"
 
 #include <vector>
 #include <string>
