@@ -7,9 +7,9 @@
 
 #include "GLFont\GLFont.h"
 
-//#include "Water Simulation\WALL.h"
-//#include "Water Simulation\PARTICLE.h"
-//#include "Water Simulation\PARTICLE_SYSTEM.h"
+#include "Water Simulation\WALL.h"
+#include "Water Simulation\PARTICLE.h"
+#include "Water Simulation\PARTICLE_SYSTEM.h"
 
 #include <vector>
 #include <string>
@@ -69,6 +69,17 @@ protected:
 	void glutMouseClick(int button, int state, int x, int y);
 	void glutMouseMotion(int x, int y);
 	void idleCallback();
+
+	// GUI interaction stuff
+	//GLVU glvu;
+
+	PARTICLE_SYSTEM *particleSystem;
+
+	double dt;
+	bool animate;
+	int iterationCount;
+	double arUtilTimer(void);
+	void arUtilTimerReset(void);
 
 
 protected:

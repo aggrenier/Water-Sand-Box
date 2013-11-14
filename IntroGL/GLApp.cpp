@@ -25,6 +25,10 @@ namespace ord12929
 		m_ObjectAngle = 0.f;
 		m_Program1 = 0;
 		m_Program2 = 0;
+
+		dt = 1.0 / 100.0;
+		animate = false;
+		iterationCount = 0;
 	}
 
 	GLApp::~GLApp()
@@ -158,10 +162,11 @@ namespace ord12929
 		glLightfv(GL_LIGHT0, GL_POSITION, lightpos);
 
 		m_Camera.Render();
-		RenderFloor();
+		//RenderFloor();
 
-		RenderBumpMap();
+		//RenderBumpMap();
 		//RenderTextureBlend();
+
 	}
 
 	void GLApp::RenderBumpMap()
@@ -253,17 +258,71 @@ namespace ord12929
 	{
 		m_Camera.KeyUp(key);
 
-		if((char)key == 'L')
+		/*if((char)key == 'L')
 		{
-			m_LinePolygoneMode = !m_LinePolygoneMode;
-			if(m_LinePolygoneMode)
-			{
-				glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-			}
-			else
-			{
-				glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-			}
+		m_LinePolygoneMode = !m_LinePolygoneMode;
+		if(m_LinePolygoneMode)
+		{
+		glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+		}
+		else
+		{
+		glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+		}
+		}*/
+
+		switch (key)
+		{
+			// quit entirely
+		case 'q':
+		case 'Q':
+			exit(0);
+			break;
+
+		case 'a':
+			animate = !animate;
+			break;			
+		
+		case '=':
+			particleSystem->surfaceThreshold += 0.1;
+			cout << "surface threshold: " << particleSystem->surfaceThreshold << endl;
+			break;
+
+		case '-':
+			particleSystem->surfaceThreshold -= 0.1;
+			cout << "surface threshold: " << particleSystem->surfaceThreshold << endl;
+			break;
+
+		case 's':
+			particleSystem->toggleSurfaceVisible();
+			break;
+
+		case '/':
+			particleSystem->toggleGravity();
+			break;
+
+		case '.':
+			particleSystem->toggleArrows();
+			break;
+
+		case 't':
+			particleSystem->toggleTumble();
+			break;
+
+		case '1':
+			particleSystem->loadScenario(SCENARIO_DAM);
+			break;
+
+		case '2':
+			particleSystem->loadScenario(SCENARIO_CUBE);
+			break;
+		case '3':
+			particleSystem->loadScenario(SCENARIO_FAUCET);
+			break;
+
+		case 'f':
+			printf("*** %f (frame/sec)\n", (double)iterationCount/arUtilTimer());
+			break;
 		}
 	}
 
@@ -377,6 +436,64 @@ namespace ord12929
 			GLUtils::DebugString(infoLog);
 			free(infoLog);
 		}
+	}
+
+
+	//Water Simulation Code
+	/////////////////////////////////////////////////////////////////////
+	// draw coordinate axes
+	/////////////////////////////////////////////////////////////////////
+	void GLApp::drawAxes()
+	{
+		glDisable(GL_COLOR_MATERIAL);
+		//draw coordinate axes
+		glPushMatrix();
+		glTranslatef(-0.1f, -0.1f, -0.1f);
+		glLineWidth(3.0f);
+		glBegin(GL_LINES);
+		//x axis is red
+		glColor4f(10.0f, 0.0f, 0.0f, 1.0f);
+		glVertex3f(0.0f, 0.0f, 0.0f);
+		glColor4f(10.0f, 0.0f, 0.0f, 0.0f);
+		glVertex3f(1.0f, 0.0f, 0.0f);
+
+		//y axis is green 
+		glColor4f(0.0f, 10.0f, 0.0f, 1.0f);
+		glVertex3f(0.0f, 0.0f, 0.0f);
+		glColor4f(0.0f, 10.0f, 0.0f, 0.0f);
+		glVertex3f(0.0f, 1.0f, 0.0f);
+
+		//z axis is blue
+		glColor4f(0.0f, 0.0f, 10.0f, 1.0f);
+		glVertex3f(0.0f, 0.0f, 0.0f);
+		glColor4f(0.0f, 0.0f, 10.0f, 0.0f);
+		glVertex3f(0.0f, 0.0f, 1.0f);
+		glEnd();
+		glLineWidth(1.0f);
+		glPopMatrix();
+	}
+
+	///////////////////////////////////////////////////////////////////////////////
+	// The drawing function
+	///////////////////////////////////////////////////////////////////////////////
+	void GLApp::displayCallback()
+	{
+		//glvu.BeginFrame();
+
+		// clear away the previous frame
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		glEnable(GL_DEPTH_TEST);
+
+
+		//drawAxes();
+
+		// draw the particle system and walls
+		particleSystem->draw();
+
+		// swap the buffers
+		//glutSwapBuffers();
+
+		//glvu.EndFrame();
 	}
 
 
