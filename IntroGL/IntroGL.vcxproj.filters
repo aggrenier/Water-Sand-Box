@@ -25,11 +25,14 @@
     <Filter Include="SourceFiles\GLFont">
       <UniqueIdentifier>{cb7c7956-03f2-4e71-adf0-fde5a3db6aab}</UniqueIdentifier>
     </Filter>
-    <Filter Include="WaterSimulation">
+    <Filter Include="SourceFiles\WaterSimulation">
       <UniqueIdentifier>{e764c635-da20-4ea4-905c-0e4592f69dfe}</UniqueIdentifier>
     </Filter>
-    <Filter Include="WaterSimulation\gluv">
+    <Filter Include="SourceFiles\WaterSimulation\gluv">
       <UniqueIdentifier>{ec2f5bd9-9470-44d4-aca6-e9c459cba5ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WaterSimulation">
+      <UniqueIdentifier>{f591a8e1-aa98-4d87-9bc8-4f20e54f8415}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -80,53 +83,53 @@
     <ClInclude Include="OBJLoader\string_extra.h">
       <Filter>Header Files\OBJLoader</Filter>
     </ClInclude>
-    <ClInclude Include="..\Water Simulation\FIELD_2D.h">
-      <Filter>WaterSimulation</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Water Simulation\FIELD_3D.h">
-      <Filter>WaterSimulation</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Water Simulation\HW1.h">
-      <Filter>WaterSimulation</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Water Simulation\PARTICLE.h">
-      <Filter>WaterSimulation</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Water Simulation\PARTICLE_SYSTEM.h">
-      <Filter>WaterSimulation</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Water Simulation\VEC3D.h">
-      <Filter>WaterSimulation</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Water Simulation\VEC3F.h">
-      <Filter>WaterSimulation</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Water Simulation\WALL.h">
-      <Filter>WaterSimulation</Filter>
-    </ClInclude>
     <ClInclude Include="..\Water Simulation\glvu\camera.h">
-      <Filter>WaterSimulation\gluv</Filter>
+      <Filter>SourceFiles\WaterSimulation\gluv</Filter>
     </ClInclude>
     <ClInclude Include="..\Water Simulation\glvu\glvu.h">
-      <Filter>WaterSimulation\gluv</Filter>
+      <Filter>SourceFiles\WaterSimulation\gluv</Filter>
     </ClInclude>
     <ClInclude Include="..\Water Simulation\glvu\glvuMat16fv.h">
-      <Filter>WaterSimulation\gluv</Filter>
+      <Filter>SourceFiles\WaterSimulation\gluv</Filter>
     </ClInclude>
     <ClInclude Include="..\Water Simulation\glvu\glvuVec3f.h">
-      <Filter>WaterSimulation\gluv</Filter>
+      <Filter>SourceFiles\WaterSimulation\gluv</Filter>
     </ClInclude>
     <ClInclude Include="..\Water Simulation\glvu\glvuVec3fv.h">
-      <Filter>WaterSimulation\gluv</Filter>
+      <Filter>SourceFiles\WaterSimulation\gluv</Filter>
     </ClInclude>
     <ClInclude Include="..\Water Simulation\glvu\snapshot.h">
-      <Filter>WaterSimulation\gluv</Filter>
+      <Filter>SourceFiles\WaterSimulation\gluv</Filter>
     </ClInclude>
     <ClInclude Include="..\Water Simulation\glvu\text.h">
-      <Filter>WaterSimulation\gluv</Filter>
+      <Filter>SourceFiles\WaterSimulation\gluv</Filter>
     </ClInclude>
     <ClInclude Include="..\Water Simulation\glvu\trackball.h">
-      <Filter>WaterSimulation\gluv</Filter>
+      <Filter>SourceFiles\WaterSimulation\gluv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\FIELD_2D.h">
+      <Filter>Header Files\WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\FIELD_3D.h">
+      <Filter>Header Files\WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\HW1.h">
+      <Filter>Header Files\WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\PARTICLE.h">
+      <Filter>Header Files\WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\PARTICLE_SYSTEM.h">
+      <Filter>Header Files\WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\VEC3D.h">
+      <Filter>Header Files\WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\VEC3F.h">
+      <Filter>Header Files\WaterSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Water Simulation\WALL.h">
+      <Filter>Header Files\WaterSimulation</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -164,25 +167,25 @@
       <Filter>SourceFiles\OBJLoader</Filter>
     </ClCompile>
     <ClCompile Include="..\Water Simulation\FIELD_2D.cpp">
-      <Filter>WaterSimulation</Filter>
+      <Filter>SourceFiles\WaterSimulation</Filter>
     </ClCompile>
     <ClCompile Include="..\Water Simulation\FIELD_3D.cpp">
-      <Filter>WaterSimulation</Filter>
+      <Filter>SourceFiles\WaterSimulation</Filter>
     </ClCompile>
     <ClCompile Include="..\Water Simulation\HW1.cpp">
-      <Filter>WaterSimulation</Filter>
+      <Filter>SourceFiles\WaterSimulation</Filter>
     </ClCompile>
     <ClCompile Include="..\Water Simulation\PARTICLE.cpp">
-      <Filter>WaterSimulation</Filter>
+      <Filter>SourceFiles\WaterSimulation</Filter>
     </ClCompile>
     <ClCompile Include="..\Water Simulation\PARTICLE_SYSTEM.cpp">
-      <Filter>WaterSimulation</Filter>
+      <Filter>SourceFiles\WaterSimulation</Filter>
     </ClCompile>
     <ClCompile Include="..\Water Simulation\WALL.cpp">
-      <Filter>WaterSimulation</Filter>
+      <Filter>SourceFiles\WaterSimulation</Filter>
     </ClCompile>
     <ClCompile Include="..\Water Simulation\glvu\glvu.cpp">
-      <Filter>WaterSimulation\gluv</Filter>
+      <Filter>SourceFiles\WaterSimulation\gluv</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

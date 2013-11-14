@@ -1,4 +1,4 @@
-﻿Build started 11/12/2013 3:30:16 PM.
+﻿Build started 11/14/2013 3:44:16 PM.
 Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Application II\Water-Sand-Box\IntroGL\IntroGL.vcxproj" on node 2 (rebuild target(s)).
 _PrepareForClean:
   Deleting file "Debug\IntroGL.lastbuildstate".
@@ -9,30 +9,22 @@ ClCompile:
   stdafx.cpp
   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GLEW_STATIC /D _UNICODE /D UNICODE /D GLUT_BUILDING_LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Water Simulation\FIELD_2D.cpp" "..\Water Simulation\FIELD_3D.cpp" "..\Water Simulation\glvu\glvu.cpp" "..\Water Simulation\HW1.cpp" "..\Water Simulation\PARTICLE.cpp" "..\Water Simulation\PARTICLE_SYSTEM.cpp" "..\Water Simulation\WALL.cpp"
   WALL.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\Water Simulation\WALL.cpp': No such file or directory
   PARTICLE_SYSTEM.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(226): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(227): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(228): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(234): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(315): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(369): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(436): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(458): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(493): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(523): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(674): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(684): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(708): warning C4018: '<' : signed/unsigned mismatch
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\particle_system.cpp(723): warning C4018: '<' : signed/unsigned mismatch
+c1xx : fatal error C1083: Cannot open source file: '..\Water Simulation\PARTICLE_SYSTEM.cpp': No such file or directory
   PARTICLE.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\Water Simulation\PARTICLE.cpp': No such file or directory
   HW1.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\Water Simulation\HW1.cpp': No such file or directory
   glvu.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\water simulation\glvu\glvu.h(28): fatal error C1083: Cannot open include file: 'GLUT/glut.h': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: '..\Water Simulation\glvu\glvu.cpp': No such file or directory
   FIELD_3D.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\Water Simulation\FIELD_3D.cpp': No such file or directory
   FIELD_2D.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\Water Simulation\FIELD_2D.cpp': No such file or directory
   Generating Code...
 Done Building Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Application II\Water-Sand-Box\IntroGL\IntroGL.vcxproj" (rebuild target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:08.78
+Time Elapsed 00:00:04.74

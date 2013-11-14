@@ -7,6 +7,10 @@
 
 #include "GLFont\GLFont.h"
 
+#include "WaterSimulation\WALL.h"
+#include "WaterSimulation\PARTICLE.h"
+#include "WaterSimulation\PARTICLE_SYSTEM.h"
+
 #include <vector>
 #include <string>
 
@@ -14,6 +18,12 @@
 
 namespace ord12929
 {
+
+#define BRUTE1
+
+#define SCENARIO_DAM      0
+#define SCENARIO_FAUCET   1
+#define SCENARIO_CUBE     2
 
 class GLMesh;
 
@@ -50,6 +60,16 @@ protected:
 	char* TextFileRead(const std::string& fileName);
 	void PrintShaderInfoLog(GLuint obj);
 	void PrintProgramInfoLog(GLuint obj);
+
+	//Functions for Water Simulation
+	void drawAxes();
+	void displayCallback();
+	void reshapeCallback(int width, int height);
+	void keyboardCallback(unsigned char key, int x, int y);
+	void glutMouseClick(int button, int state, int x, int y);
+	void glutMouseMotion(int x, int y);
+	void idleCallback();
+
 
 protected:
 
