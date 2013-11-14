@@ -1,4 +1,4 @@
-
+// Meaningless commit comment
 varying vec2 texture_coordinate; 
 varying vec2 map_coordinate;
 
