@@ -23,6 +23,7 @@ namespace ord12929
 		m_Program1 = 0;
 		m_Program2 = 0;
 
+        //water simulation code 
 		dt = 1.0 / 100.0;
 		animate = false;
 		iterationCount = 0;
