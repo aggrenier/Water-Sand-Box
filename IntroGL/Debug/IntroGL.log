@@ -1,9 +1,9 @@
-﻿Build started 11/14/2013 4:26:56 PM.
+﻿Build started 11/14/2013 4:37:01 PM.
 Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Application II\Water-Sand-Box\IntroGL\IntroGL.vcxproj" on node 2 (rebuild target(s)).
 _PrepareForClean:
   Deleting file "Debug\IntroGL.lastbuildstate".
 InitializeBuildStatus:
-  Creating "Debug\IntroGL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Touching "Debug\IntroGL.unsuccessfulbuild".
 ClCompile:
   C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GLEW_STATIC /D _UNICODE /D UNICODE /D GLUT_BUILDING_LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\IntroGL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
   stdafx.cpp
@@ -143,7 +143,7 @@ ClCompile:
 \\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glfont\glfont.cpp(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
           c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
   GLApp.cpp
-\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glapp.cpp(404): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+\\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\glapp.cpp(379): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
           c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
   Camera.cpp
 \\vmware-host\shared folders\ecole\session 3\automne\application ii\water-sand-box\introgl\camera.cpp(37): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
@@ -192,4 +192,4 @@ Done Building Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Appl
 
 Build FAILED.
 
-Time Elapsed 00:00:13.30
+Time Elapsed 00:00:13.44

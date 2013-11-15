@@ -6,9 +6,6 @@
 #include <cmath>
 #include <sstream>
 
-//imports from water simulation
-#include <vector>
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -273,12 +270,7 @@ namespace ord12929
 
 		switch (key)
 		{
-			// quit entirely
-		case 'q':
-		case 'Q':
-			exit(0);
-			break;
-
+		
 		case 'a':
 			animate = !animate;
 			break;			
