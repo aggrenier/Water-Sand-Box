@@ -69,6 +69,7 @@ protected:
 	void glutMouseClick(int button, int state, int x, int y);
 	void glutMouseMotion(int x, int y);
 	void idleCallback();
+	void waterSimulation();
 
 	// GUI interaction stuff
 	//GLVU glvu;

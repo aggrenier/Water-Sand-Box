@@ -312,10 +312,6 @@ namespace ord12929
 		case '3':
 			particleSystem->loadScenario(SCENARIO_FAUCET);
 			break;
-
-		case 'f':
-			printf("*** %f (frame/sec)\n", (double)iterationCount/arUtilTimer());
-			break;
 		}
 	}
 
