@@ -31,8 +31,8 @@
 #define CAMERA
 
 #include <stdio.h>
-#include <glvuVec3f.h>
-#include <glvuMat16fv.h>
+#include "glvuVec3f.h"
+#include "glvuMat16fv.h"
 #include <cstdlib>
 
 class Camera

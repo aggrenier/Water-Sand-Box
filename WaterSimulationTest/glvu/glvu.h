@@ -26,8 +26,8 @@
 #include <time.h>            // FOR TIMED PATH PLAYBACK (glvu_camview)
 #include <sys/timeb.h>       // FOR FRAME TIMING (glvu_camview)
 #include <GL/glut.h>
-#include <glvuVec3f.h>
-#include <camera.h>
+#include "glvuVec3f.h"
+#include "camera.h"
 
 #ifndef ABS
 #define ABS(x) (((x)<0)?(-(x)):x)    // HANDY UNIVERSAL ABSOLUTE VALUE FUNC

@@ -22,7 +22,7 @@
 #ifndef _GLVU_TEXT_H_
 #define _GLVU_TEXT_H_
 
-#include <GLUT/glut.h>
+#include <GL/glut.h>
 #include <stdio.h>
 #include <stdarg.h>
 

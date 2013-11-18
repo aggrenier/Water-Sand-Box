@@ -18,7 +18,7 @@
 #include <GL/glu.h>
 #endif
 
-#include <../gluv/glvu.h>
+#include "gluv/glvu.h"
 
 #include "WALL.h"
 #include "PARTICLE.h"
