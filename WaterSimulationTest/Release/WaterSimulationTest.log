@@ -1,0 +1,51 @@
+﻿Build started 11/18/2013 4:07:47 PM.
+Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Application II\Water-Sand-Box\WaterSimulationTest\WaterSimulationTest.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "Release\WaterSimulationTest.lastbuildstate".
+InitializeBuildStatus:
+  Touching "Release\WaterSimulationTest.unsuccessfulbuild".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FIELD_2D.cpp FIELD_3D.cpp HW1.cpp PARTICLE.cpp PARTICLE_SYSTEM.cpp stdafx.cpp WALL.cpp WaterSimulationTest.cpp
+  FIELD_2D.cpp
+  FIELD_3D.cpp
+  HW1.cpp
+HW1.cpp(11): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+  PARTICLE.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(353): error C2381: 'exit' : redefinition; __declspec(noreturn) differs
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\GL/glut.h(146) : see declaration of 'exit'
+PARTICLE.cpp(74): error C2065: 'M_PI' : undeclared identifier
+PARTICLE.cpp(75): error C2065: 'M_PI' : undeclared identifier
+  PARTICLE_SYSTEM.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(353): error C2381: 'exit' : redefinition; __declspec(noreturn) differs
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\GL/glut.h(146) : see declaration of 'exit'
+PARTICLE_SYSTEM.cpp(224): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(225): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(232): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(313): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(367): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(434): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(456): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(521): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(622): error C2065: 'M_PI' : undeclared identifier
+PARTICLE_SYSTEM.cpp(630): error C2065: 'M_PI' : undeclared identifier
+PARTICLE_SYSTEM.cpp(638): error C2065: 'M_PI' : undeclared identifier
+PARTICLE_SYSTEM.cpp(646): error C2065: 'M_PI' : undeclared identifier
+PARTICLE_SYSTEM.cpp(656): error C2065: 'M_PI' : undeclared identifier
+PARTICLE_SYSTEM.cpp(672): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(682): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(706): warning C4018: '<' : signed/unsigned mismatch
+PARTICLE_SYSTEM.cpp(721): warning C4018: '<' : signed/unsigned mismatch
+  stdafx.cpp
+  WALL.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(353): error C2381: 'exit' : redefinition; __declspec(noreturn) differs
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\GL/glut.h(146) : see declaration of 'exit'
+WALL.cpp(25): error C2065: 'M_PI' : undeclared identifier
+WALL.cpp(26): error C2065: 'M_PI' : undeclared identifier
+  WaterSimulationTest.cpp
+Done Building Project "\\vmware-host\Shared Folders\Ecole\Session 3\Automne\Application II\Water-Sand-Box\WaterSimulationTest\WaterSimulationTest.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.15

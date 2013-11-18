@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C++ Express 2010
+# Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroGL", "IntroGL\IntroGL.vcxproj", "{5E29275D-3B54-4848-BE6B-3000A275CDDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaterSimulationTest", "WaterSimulationTest\WaterSimulationTest.vcxproj", "{D6C6BCB0-06A9-4AC8-B324-F47BCDF9C20A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{5E29275D-3B54-4848-BE6B-3000A275CDDA}.Debug|Win32.Build.0 = Debug|Win32
 		{5E29275D-3B54-4848-BE6B-3000A275CDDA}.Release|Win32.ActiveCfg = Release|Win32
 		{5E29275D-3B54-4848-BE6B-3000A275CDDA}.Release|Win32.Build.0 = Release|Win32
+		{D6C6BCB0-06A9-4AC8-B324-F47BCDF9C20A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6C6BCB0-06A9-4AC8-B324-F47BCDF9C20A}.Debug|Win32.Build.0 = Debug|Win32
+		{D6C6BCB0-06A9-4AC8-B324-F47BCDF9C20A}.Release|Win32.ActiveCfg = Release|Win32
+		{D6C6BCB0-06A9-4AC8-B324-F47BCDF9C20A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -83,6 +83,9 @@ namespace ord12929
 		m_Tex6 = GLUtils::LoadTexture("..\\Textures\\s1.jpg");
 		m_Tex7 = GLUtils::LoadTexture("..\\Textures\\s2.jpg");
 		m_Tex8 = GLUtils::LoadTexture("..\\Textures\\s3.jpg");
+
+
+		particleSystem = new PARTICLE_SYSTEM();
 	}
 
 	void GLApp::ReSize(GLsizei width, GLsizei height)
@@ -485,6 +488,89 @@ namespace ord12929
 		//glvu.EndFrame();
 	}
 
+
+	void GLApp::waterSimulation()
+	{
+
+	  //char title[] = "sph";
+
+	  //glutInit(&argc, argv);
+	  //glvu.Init(title, GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH, 0, 0, 800, 800);
+	  //glShadeModel(GL_SMOOTH);
+  
+	  //glvu.SetInertiaEnabled(0);
+
+	  //// point GLUT to our callback functions
+	  //glutDisplayFunc(displayCallback); 
+	  //glutIdleFunc(idleCallback); 
+	  ////glutReshapeFunc(reshapeCallback);
+	  //glutKeyboardFunc(keyboardCallback);
+	  //glutMouseFunc(glutMouseClick);
+	  //glutMotionFunc(glutMouseMotion);
+  
+
+	  //// set background to black
+	  //glClearColor(1.0, 1.0, 1.0, 1.0);
+
+	  //// enable lights
+	  //GLfloat ambient[] = {0.7,0.7,0.7};
+	  //GLfloat diffuse[] = {1.0,1.0,1.0};
+	  //GLfloat specular[] = {0.0, 0.0, 0.0};
+	  ////GLfloat lightPosition[] = { 0.0, 2.0, 0.0 };
+
+	  //glLightfv(GL_LIGHT0, GL_AMBIENT, ambient);
+	  //glLightfv(GL_LIGHT0, GL_DIFFUSE, diffuse);
+	  //glLightfv(GL_LIGHT0, GL_SPECULAR, specular);
+	  ////glLightfv(GL_LIGHT0, GL_POSITION, lightPosition);
+	  //glEnable(GL_LIGHTING);
+	  //glEnable(GL_LIGHT0);
+  
+	  //glvuVec3f ModelMin(-10,-10,-10), ModelMax(10,10,10), 
+	  //Eye(0, 0, 1.5),  LookAtCntr(0, 0, 0),  Up(0, 1, 0);
+  
+	  //float Yfov = 45;
+	  //float Aspect = 1;
+	  //float Near = 0.001f;
+	  //float Far = 10.0f;
+	  //glvu.SetAllCams(ModelMin, ModelMax, Eye, LookAtCntr, Up, Yfov, Aspect, Near, Far);
+  
+	  //vec3f center(0.0, 0.0, 0.0);
+	  //glvu.SetWorldCenter(center);
+  
+	  //particleSystem = new PARTICLE_SYSTEM();
+
+	  //// Let GLUT take over
+	  //glutMainLoop();
+	}
+
+	double arUtilTimer(void)
+	{
+	/*#ifdef _WIN32
+	  struct _timeb sys_time;
+	  double             tt;
+	  int                s1, s2;
+  
+	  _ftime(&sys_time);
+	  s1 = sys_time.time  - ss;
+	  s2 = sys_time.millitm - sms;
+	#else
+	  struct timeval     time;
+	  double             tt;
+	  int                s1, s2;
+  
+	#if defined(__linux) || defined(__APPLE__)
+	  gettimeofday( &time, NULL );
+	#else
+	  gettimeofday( &time );
+	#endif
+	  s1 = int(time.tv_sec  - ss);
+	  s2 = time.tv_usec/1000 - sms;
+	#endif
+  
+	  tt = (double)s1 + (double)s2 / 1000.0;
+  
+	  return( tt );*/
+	}
 
 
 }

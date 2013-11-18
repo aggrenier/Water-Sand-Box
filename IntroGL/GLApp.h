@@ -71,15 +71,19 @@ protected:
 	void idleCallback();
 	void waterSimulation();
 
+	double arUtilTimer(void);
+
+	static int ss, sms;
+
 	// GUI interaction stuff
 	//GLVU glvu;
 
-	PARTICLE_SYSTEM *particleSystem;
+	PARTICLE_SYSTEM * particleSystem;
 
 	double dt;
 	bool animate;
 	int iterationCount;
-	double arUtilTimer(void);
+	//double arUtilTimer(void);
 	void arUtilTimerReset(void);
 
 
