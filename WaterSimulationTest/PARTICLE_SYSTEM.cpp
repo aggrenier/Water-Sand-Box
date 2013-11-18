@@ -1,6 +1,7 @@
 #include "PARTICLE_SYSTEM.h"
 
-
+#define _USE_MATH_DEFINES
+#include <math.h>
 
 
 unsigned int iteration = 0;

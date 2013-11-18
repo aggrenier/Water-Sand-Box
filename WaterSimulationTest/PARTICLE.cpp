@@ -10,6 +10,8 @@ VEC3F purpleColor(0.88,0.08,0.88);
 int count = 0;
 
 #define PARTICLE_DRAW_RADIUS 0.015//0.01 //0.006
+#define _USE_MATH_DEFINES
+#include <math.h>
 
 bool PARTICLE::isSurfaceVisible = false;
 bool PARTICLE::showArrows = false;
@@ -68,8 +70,6 @@ void PARTICLE::draw()
         gluQuadricDrawStyle(myQuadric, GLU_FILL); 
         gluQuadricNormals(myQuadric, GLU_SMOOTH);
       }
-      
-      
       
       double angle1 = asin(_velocity[0]) * 180.0 / M_PI;
       double angle2 = asin(_velocity[1]) * 180.0 / M_PI;
