@@ -1,55 +1,91 @@
-﻿Build started 11/18/2013 4:51:06 PM.
-     1>Project "C:\Users\Matt\Documents\GitHub\Water-Sand-Box\WaterSimulationTest\WaterSimulationTest.vcxproj" on node 2 (rebuild target(s)).
-     1>_PrepareForClean:
-         Deleting file "Release\WaterSimulationTest.lastbuildstate".
-       InitializeBuildStatus:
+﻿Build started 11/21/2013 1:55:54 PM.
+     1>Project "C:\Users\Matt\Documents\GitHub\Water-Sand-Box\WaterSimulationTest\WaterSimulationTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
          Touching "Release\WaterSimulationTest.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D GLUT_BUILDING_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FIELD_2D.cpp FIELD_3D.cpp glvu\glvu.cpp HW1.cpp PARTICLE.cpp PARTICLE_SYSTEM.cpp stdafx.cpp WALL.cpp WaterSimulationTest.cpp
-         FIELD_2D.cpp
-         FIELD_3D.cpp
-         glvu.cpp
-     1>c:\users\matt\documents\github\water-sand-box\watersimulationtest\glvu\camera.h(356): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
-     1>c:\users\matt\documents\github\water-sand-box\watersimulationtest\glvu\text.h(81): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
-     1>c:\users\matt\documents\github\water-sand-box\watersimulationtest\glvu\text.h(135): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
-     1>glvu\glvu.cpp(787): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>glvu\glvu.cpp(817): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>c:\users\matt\documents\github\water-sand-box\watersimulationtest\glvu\snapshot.h(43): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
-     1>c:\users\matt\documents\github\water-sand-box\watersimulationtest\glvu\snapshot.h(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>c:\users\matt\documents\github\water-sand-box\watersimulationtest\glvu\snapshot.h(63): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
-     1>glvu\glvu.cpp(1163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
-         HW1.cpp
-     1>HW1.cpp(21): fatal error C1083: Cannot open include file: 'gluv\\glvu.h': No such file or directory
-         PARTICLE.cpp
-         PARTICLE_SYSTEM.cpp
-     1>PARTICLE_SYSTEM.cpp(225): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(226): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(227): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(233): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(314): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(368): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(435): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(457): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(492): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(522): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(673): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(683): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(707): warning C4018: '<' : signed/unsigned mismatch
-     1>PARTICLE_SYSTEM.cpp(722): warning C4018: '<' : signed/unsigned mismatch
-         stdafx.cpp
-         WALL.cpp
-         WaterSimulationTest.cpp
-     1>Done Building Project "C:\Users\Matt\Documents\GitHub\Water-Sand-Box\WaterSimulationTest\WaterSimulationTest.vcxproj" (rebuild target(s)) -- FAILED.
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matt\Documents\GitHub\Water-Sand-Box\Release\WaterSimulationTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\WaterSimulationTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Matt\Documents\GitHub\Water-Sand-Box\Release\WaterSimulationTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matt\Documents\GitHub\Water-Sand-Box\Release\WaterSimulationTest.lib" /MACHINE:X86 Release\FIELD_2D.obj
+         Release\FIELD_3D.obj
+         Release\glvu.obj
+         Release\HW1.obj
+         Release\PARTICLE.obj
+         Release\PARTICLE_SYSTEM.obj
+         Release\stdafx.obj
+         Release\WALL.obj
+         Release\WaterSimulationTest.obj
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glGetIntegerv@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glVertex3fv@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutAddMenuEntry@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glGetBooleanv@8
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutInitWindowPosition@8
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutCreateWindow@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutMotionFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutAddSubMenu@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glPixelStorei@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glIsEnabled@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutGetModifiers@0
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutSwapBuffers@0
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutGetWindow@0
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glShadeModel@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutReshapeFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutGet@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glLoadMatrixf@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glReadPixels@28
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutInitDisplayMode@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glReadBuffer@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glPolygonMode@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glCullFace@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutSetWindow@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutMouseFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutCreateMenu@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glLightModeli@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glMatrixMode@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glViewport@16
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutKeyboardFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutAttachMenu@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutDestroyWindow@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutInitWindowSize@8
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutPostRedisplay@0
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutDisplayFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutTimerFunc@12
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glClear@4
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glClearColor@16
+     1>HW1.obj : error LNK2001: unresolved external symbol _gluPerspective@32
+     1>HW1.obj : error LNK2001: unresolved external symbol _gluLookAt@72
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glColor4f@16
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glLineWidth@4
+     1>HW1.obj : error LNK2001: unresolved external symbol _glutInit@8
+     1>HW1.obj : error LNK2001: unresolved external symbol _glutIdleFunc@4
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glLightfv@12
+     1>HW1.obj : error LNK2001: unresolved external symbol _glutMainLoop@0
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol __imp__glMaterialfv@12
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _glutSolidCone@24
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol __imp__glTranslated@24
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _gluQuadricDrawStyle@8
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol __imp__glRotatef@16
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _gluNewQuadric@0
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _glutSolidSphere@16
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _gluQuadricNormals@8
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _gluCylinder@36
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol __imp__glFlush@0
+     1>PARTICLE_SYSTEM.obj : error LNK2001: unresolved external symbol __imp__glScaled@24
+     1>PARTICLE_SYSTEM.obj : error LNK2001: unresolved external symbol __imp__glColor3fv@4
+     1>PARTICLE_SYSTEM.obj : error LNK2001: unresolved external symbol _glutWireCube@8
+     1>WALL.obj : error LNK2001: unresolved external symbol _glutSolidCube@8
+     1>WALL.obj : error LNK2001: unresolved external symbol __imp__glScalef@12
+     1>C:\Users\Matt\Documents\GitHub\Water-Sand-Box\Release\WaterSimulationTest.exe : fatal error LNK1120: 69 unresolved externals
+     1>Done Building Project "C:\Users\Matt\Documents\GitHub\Water-Sand-Box\WaterSimulationTest\WaterSimulationTest.vcxproj" (build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:02.44
+Time Elapsed 00:00:00.28

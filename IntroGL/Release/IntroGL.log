@@ -1,4 +1,4 @@
-﻿Build started 11/18/2013 4:44:57 PM.
+﻿Build started 11/21/2013 1:45:16 PM.
      1>Project "C:\Users\Matt\Documents\GitHub\Water-Sand-Box\IntroGL\IntroGL.vcxproj" on node 3 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Release\IntroGL.lastbuildstate".
@@ -161,4 +161,4 @@
 
 Build FAILED.
 
-Time Elapsed 00:00:03.76
+Time Elapsed 00:00:03.33
